@@ -3,6 +3,9 @@
 # [@deletr_bot](https://t.me/deletr_bot) main repository
 This repository contains the code for another bot of mine called Deletr — the sole purpose of which is to delete `Deleted Account` users from chats and channels. Enjoy!
 
+# Warning!
+This version of the code currently doesn't work but will work as soon as Telegram allows to fetch users lists to the admin bots.
+
 # Installation and local launch
 1. Clone this repo: `git clone https://github.com/backmeupplz/deletr`
 2. Create `.env` file with `TOKEN`
