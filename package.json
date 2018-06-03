@@ -1,0 +1,30 @@
+{
+  "name": "deletr",
+  "version": "1.0.0",
+  "description": "Telegram Bot to delete \"Deleted Account\" users from chats and channels",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/backmeupplz/deletr.git"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "deletr",
+    "deleted",
+    "account"
+  ],
+  "author": "backmeupplz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/backmeupplz/deletr/issues"
+  },
+  "homepage": "https://github.com/backmeupplz/deletr#readme",
+  "dependencies": {
+    "dotenv": "^6.0.0",
+    "telegraf": "^3.21.2"
+  }
+}
