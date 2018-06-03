@@ -1,4 +1,4 @@
-[![Voicybot](/design/github-header.png?raw=true)](http://voicybot.com/)
+![Deletr](/design/github-header.png?raw=true)
 
 # [@deletr_bot](https://t.me/deletr_bot) main repository
 This repository contains the code for another bot of mine called Deletr — the sole purpose of which is to delete `Deleted Account` users from chats and channels. Enjoy!
