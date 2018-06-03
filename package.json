@@ -4,7 +4,7 @@
   "description": "Telegram Bot to delete \"Deleted Account\" users from chats and channels",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
