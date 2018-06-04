@@ -9,7 +9,7 @@ const bot = new Telegraf(process.env.TOKEN, {username: 'deletr_bot'})
 const help = 'Hello there! I\'m @deletr_bot and my sole purpose is to delete <code>Deleted Account</code> users from chats and channels. To unleash my full potential, add me to a channel or chat, make me an admin in that channel or chat and then simply write /delete there. That\'s it! No more filthy <code>Deleted Account</code> users. You are welcome.\n\n/help — This message\n/delete — delete all <code>Deleted Account</code> users from this group or chat'
 // Added to the chat
 bot.on('new_chat_members', (ctx) => {
-  if (ctx.map(m => m.username).includes('deletr_bot'))
+  if (ctx.message.new_chat_members.map(m => m.username || '').includes('deletr_bot'))
     sendHelp(ctx)
 })
 // Start and help commands
